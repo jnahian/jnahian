@@ -1,46 +1,51 @@
 # Julkar Naen Nahian
 
-**Senior Engineer & Team Lead** — I build developer tools and Shopify apps, and the AI tooling around both.
+**Tech Lead @ [Storeware-Apps](https://github.com/Storeware-Apps)** · Dhaka, Bangladesh
 
-Most of my public work is developer-facing: a VS Code theme, an extension for keeping notes anchored to your code, a Slack bot for team decisions. Day to day I lead a Shopify app team — SEO and content products — and spend a lot of time on the infrastructure and DX side: message-queue pipelines, MCP servers, and Claude Code agent workflows that let a small team move like a larger one.
+I lead the engineering team behind [StoreSEO](https://storeseo.com), a Shopify SEO app used by 30,000+ merchants. Outside work I build native macOS apps, developer tools, and MCP/agent tooling, mostly to fix friction I hit every day.
 
----
+## Shopify
 
-### Selected work
+| Project | What it is |
+|---|---|
+| [StoreSEO](https://storeseo.com) | SEO and AI-search automation for Shopify merchants. I own architecture, releases, and sprint planning. |
+
+Recent work: AI brand-visibility tracking on a fan-out/fan-in RabbitMQ pipeline, and an MCP server with OAuth 2.0 and two-phase write confirmation.
+
+## macOS apps
 
 | Project | What it is | |
 |---|---|---|
-| **[StoreSEO](https://storeseo.com)** | SEO automation for Shopify merchants — metadata, image optimization, JSON-LD schema, and AI brand-visibility tracking | |
-| **[Daily Dose](https://github.com/jnahian/daily-dose)** | Slack bot that automates daily standups — sends reminders, collects responses, and posts formatted summaries to team channels | |
-| **[vscode-claude-theme](https://github.com/jnahian/vscode-claude-theme)** | A warm, professional VS Code theme inspired by Claude's design system | ⭐ 17 |
-| **[code-context-notes](https://github.com/jnahian/code-context-notes)** | Contextual notes for your code with full version history — notes stay anchored even when line numbers shift | ⭐ 6 |
-| **[askify-bot](https://github.com/jnahian/askify-bot)** | A Slack poll bot for team decisions, engagement, and feedback | |
+| [Junction](https://github.com/jnahian/junction) | Link router that sends every link to the right browser, profile, or app | <!--stars:junction-->⭐ 12<!--/stars--> |
+| [reader.md](https://github.com/jnahian/reader.md) | Native Markdown reader with diagrams, math, and remote folder sync | <!--stars:reader.md-->⭐ 5<!--/stars--> |
 
-### Also building
+## Developer tools
 
-- **Shopify apps** — SEO & content products for merchants. Recent work: AI brand-visibility tracking (share-of-voice + citation/mention monitoring across LLM platforms) on a fan-out/fan-in RabbitMQ pipeline.
-- **MCP & agent tooling** — MCP servers (OAuth 2.0, two-phase write confirmation) and Claude Code skills/subagents to standardize how the team ships.
+| Project | What it is | |
+|---|---|---|
+| [vscode-claude-theme](https://github.com/jnahian/vscode-claude-theme) | VS Code theme inspired by Claude's design style | <!--stars:vscode-claude-theme-->⭐ 20<!--/stars--> |
+| [code-context-notes](https://github.com/jnahian/code-context-notes) | Notes attached to code that stay on the right lines as the code changes | <!--stars:code-context-notes-->⭐ 11<!--/stars--> |
+| [veil-chrome-ext](https://github.com/jnahian/veil-chrome-ext) | Chrome extension to hide, blur, or rewrite page elements and mask sensitive data | <!--stars:veil-chrome-ext-->⭐ 6<!--/stars--> |
 
-### What I work with
+## Team bots
 
-```text
-Languages    TypeScript · JavaScript · SQL
-Backend      Node.js/Express · NestJS · PostgreSQL · Sequelize · Prisma
-Frontend     React · Shopify Polaris & App Bridge · Next.js (App Router)
-Messaging    RabbitMQ (fan-out/fan-in, delayed-message)
-Infra        GCP · Hetzner · Caddy · nginx · PM2
-AI tooling   Claude Code (custom skills + subagents) · MCP servers
+| Project | What it is | |
+|---|---|---|
+| [Daily Dose](https://github.com/jnahian/daily-dose) | Slack bot for daily standup reminders and summaries | <!--stars:daily-dose-->⭐ 1<!--/stars--> |
+| [askify-bot](https://github.com/jnahian/askify-bot) | Slack poll bot for team decisions and feedback | <!--stars:askify-bot-->⭐ 0<!--/stars--> |
+
+## Stack
+
+```
+Languages   TypeScript, JavaScript, Swift, SQL
+Backend     Node.js/Express, NestJS, PostgreSQL, Sequelize, Prisma
+Frontend    React, Shopify Polaris + App Bridge, Next.js (App Router)
+Messaging   RabbitMQ
+Infra       GCP, Hetzner, Caddy, nginx, PM2
+AI tooling  Claude Code (skills, subagents), MCP servers
 ```
 
-### Writing
+## Writing
 
-Practitioner notes on Shopify development and AI tooling — the messy middle, not the hype.
-[jnahian.me](http://www.jnahian.me) · [LinkedIn](https://www.linkedin.com/in/jnahian/)
-
----
-
-<!-- Optional stats card — remove this block if you'd rather keep it minimal. -->
-<a href="https://github.com/jnahian">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=jnahian&show_icons=true&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jnahian&layout=compact&hide_border=true&langs_count=8" />
-</a>
+Practitioner notes on Shopify development and AI tooling: the hard parts, not the hype.
+[jnahian.me](https://jnahian.me) · [LinkedIn](https://www.linkedin.com/in/jnahian)
